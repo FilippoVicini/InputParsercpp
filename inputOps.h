@@ -1,5 +1,5 @@
-#ifndef GUARD_stats_h
-#define GUARD_stats_h
+#ifndef GUARD_inputOps_h
+#define GUARD_inputOps_h
 
 #include <vector>
 
