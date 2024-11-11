@@ -6,9 +6,11 @@ using namespace std;
 
 int main() {
   vector<string> line;
-  validateFile("hello.txt");
-  readFile("payments.txt", line);
-  for (int i = 0; i < line.size(); i++) {
-    cout << "mytest" << line[i] << endl;
-  }
+  string fileName = "hello.txt";
+
+  // call validateFile function
+  validateFile(fileName);
+
+  // call readFile function
+  readFile(fileName, line);
 }

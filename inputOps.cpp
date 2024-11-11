@@ -6,14 +6,7 @@
 
 using namespace std;
 
-/*
- * readFile - Reads lines from a file and stores them in a vector
- * @param fileName: Name of file to read
- * @param inputLines: A reference to a vector of strings to store each line of
- * the input file
- *
- * Opens a file read each lines and pushes each line to a vector defined
- */
+// Function to read file and push lines in vector
 void readFile(const string &fileName, vector<string> &inputLines) {
   string myText;
 
@@ -26,6 +19,7 @@ void readFile(const string &fileName, vector<string> &inputLines) {
   }
 }
 
+// Function to handle different file errors
 bool validateFile(const string &fileName) {
   // Check for correct file extension
   if (!checkFileName(fileName)) {
@@ -37,6 +31,7 @@ bool validateFile(const string &fileName) {
   return true;
 }
 
+// Function to check if a file has a ".txt" extension
 bool checkFileName(const string &fileName) {
   // last occurrence of . in the file
   size_t pos = fileName.rfind('.');
@@ -56,13 +51,20 @@ bool checkFileName(const string &fileName) {
   return false;
 }
 
+// Function to check if a file exists by attempting to open it
 bool checkFileExi(const string &fileName) {
   // Create an input file stream (ifstream) object to open the file
   ifstream file;
+
+  // Open file
   file.open(fileName);
+
+  // If the file couldn't be opened
   if (!file) {
+    // File doesn't exist
     cout << "File doesn't exist";
     return false;
   }
+  // Return true when opened
   return true;
 }
