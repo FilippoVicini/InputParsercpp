@@ -14,8 +14,6 @@ void readFile(const string &fileName, vector<string> &inputLines) {
   while (getline(in, myText)) { // Read each line into myText
     // Add line to input vector
     inputLines.push_back(myText);
-    // Print the line to the console
-    cout << myText << endl;
   }
 }
 

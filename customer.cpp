@@ -1,9 +1,20 @@
 #include "customer.h"
 
 // Constructor implementation
-customer::customer(const std::string &name, double c) : n(name), cost(c) {}
+Customer::Customer(const std::string &name, double cost)
+    : name(name), totalSpent(cost) {
+  // initial item cost
+  items.push_back(cost);
+}
 
 // addItem implementation
-void customer::addItem(double i) { items.push_back(i); }
+void Customer::addItem(double cost) {
+  items.push_back(cost);
+  totalSpent += cost;
+}
 
-void customer::increaseTot(double i) { cost = cost + i; }
+// increaseTot
+void Customer::increaseTot(double cost) {
+  // Increasetotal
+  totalSpent += cost;
+}
