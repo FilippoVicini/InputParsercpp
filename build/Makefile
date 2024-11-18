@@ -129,53 +129,29 @@ coursework1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/build
 .PHONY : coursework1/fast
 
-src/customer.o: src/customer.cpp.o
-.PHONY : src/customer.o
+src/input/inputOps.o: src/input/inputOps.cpp.o
+.PHONY : src/input/inputOps.o
 
 # target to build an object file
-src/customer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/customer.cpp.o
-.PHONY : src/customer.cpp.o
+src/input/inputOps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o
+.PHONY : src/input/inputOps.cpp.o
 
-src/customer.i: src/customer.cpp.i
-.PHONY : src/customer.i
-
-# target to preprocess a source file
-src/customer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/customer.cpp.i
-.PHONY : src/customer.cpp.i
-
-src/customer.s: src/customer.cpp.s
-.PHONY : src/customer.s
-
-# target to generate assembly for a file
-src/customer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/customer.cpp.s
-.PHONY : src/customer.cpp.s
-
-src/inputOps.o: src/inputOps.cpp.o
-.PHONY : src/inputOps.o
-
-# target to build an object file
-src/inputOps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/inputOps.cpp.o
-.PHONY : src/inputOps.cpp.o
-
-src/inputOps.i: src/inputOps.cpp.i
-.PHONY : src/inputOps.i
+src/input/inputOps.i: src/input/inputOps.cpp.i
+.PHONY : src/input/inputOps.i
 
 # target to preprocess a source file
-src/inputOps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/inputOps.cpp.i
-.PHONY : src/inputOps.cpp.i
+src/input/inputOps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/inputOps.cpp.i
+.PHONY : src/input/inputOps.cpp.i
 
-src/inputOps.s: src/inputOps.cpp.s
-.PHONY : src/inputOps.s
+src/input/inputOps.s: src/input/inputOps.cpp.s
+.PHONY : src/input/inputOps.s
 
 # target to generate assembly for a file
-src/inputOps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/inputOps.cpp.s
-.PHONY : src/inputOps.cpp.s
+src/input/inputOps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s
+.PHONY : src/input/inputOps.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -201,29 +177,53 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/product.o: src/product.cpp.o
-.PHONY : src/product.o
+src/models/customer.o: src/models/customer.cpp.o
+.PHONY : src/models/customer.o
 
 # target to build an object file
-src/product.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/product.cpp.o
-.PHONY : src/product.cpp.o
+src/models/customer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/customer.cpp.o
+.PHONY : src/models/customer.cpp.o
 
-src/product.i: src/product.cpp.i
-.PHONY : src/product.i
+src/models/customer.i: src/models/customer.cpp.i
+.PHONY : src/models/customer.i
 
 # target to preprocess a source file
-src/product.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/product.cpp.i
-.PHONY : src/product.cpp.i
+src/models/customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/customer.cpp.i
+.PHONY : src/models/customer.cpp.i
 
-src/product.s: src/product.cpp.s
-.PHONY : src/product.s
+src/models/customer.s: src/models/customer.cpp.s
+.PHONY : src/models/customer.s
 
 # target to generate assembly for a file
-src/product.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/product.cpp.s
-.PHONY : src/product.cpp.s
+src/models/customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/customer.cpp.s
+.PHONY : src/models/customer.cpp.s
+
+src/models/product.o: src/models/product.cpp.o
+.PHONY : src/models/product.o
+
+# target to build an object file
+src/models/product.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/product.cpp.o
+.PHONY : src/models/product.cpp.o
+
+src/models/product.i: src/models/product.cpp.i
+.PHONY : src/models/product.i
+
+# target to preprocess a source file
+src/models/product.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/product.cpp.i
+.PHONY : src/models/product.cpp.i
+
+src/models/product.s: src/models/product.cpp.s
+.PHONY : src/models/product.s
+
+# target to generate assembly for a file
+src/models/product.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/models/product.cpp.s
+.PHONY : src/models/product.cpp.s
 
 # Help Target
 help:
@@ -234,18 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... coursework1"
-	@echo "... src/customer.o"
-	@echo "... src/customer.i"
-	@echo "... src/customer.s"
-	@echo "... src/inputOps.o"
-	@echo "... src/inputOps.i"
-	@echo "... src/inputOps.s"
+	@echo "... src/input/inputOps.o"
+	@echo "... src/input/inputOps.i"
+	@echo "... src/input/inputOps.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/product.o"
-	@echo "... src/product.i"
-	@echo "... src/product.s"
+	@echo "... src/models/customer.o"
+	@echo "... src/models/customer.i"
+	@echo "... src/models/customer.s"
+	@echo "... src/models/product.o"
+	@echo "... src/models/product.i"
+	@echo "... src/models/product.s"
 .PHONY : help
 
 
