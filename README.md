@@ -1,4 +1,4 @@
-# InputParsercpp
+# InputParserCPP
 
 My IN2029 coursework for City University 2024 Computer Science
 
