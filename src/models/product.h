@@ -1,16 +1,15 @@
-#ifndef CUSTOMER_H
-#define CUSTOMER_H
+#ifndef PRODUCT_H
+#define PRODUCT_H
 
 #include <string>
-#include <vector>
 
 class Product {
-  std::string name; // product name
-  double price;     // product price
-
 public:
-  // Constructor
-  Product(const std::string &name, double price);
+    std::string name;  // Product name
+    double price;      // Product price
+
+    // Constructor for initializing Product object (declaration)
+    Product(const std::string &name, double price);
 };
 
 #endif

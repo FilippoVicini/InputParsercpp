@@ -6,26 +6,45 @@
 #include <vector>
 
 using namespace std;
-void parseLine(const string &line, unordered_map<string, Customer>);
-int main() {
-  vector<string> line;
-  unordered_map<string, Customer> customers;
-  string fileName = "payments.txt";
 
-  // call validateFile function
-  validateFile(fileName);
+void parseLine(vector<string> lines,
+               unordered_map<string, Customer *> &customers) {
+  string name, product;
+  double price;
 
-  // call readFile function
-  readFile(fileName, line);
-  for (int i = 0; i < line.size(); i++) {
-    cout << line[i];
+  for (int i = 0; i < lines.size(); i++) {
+    istringstream line_s(lines[i]);
+    string name;
+    string product;
+    double x;
+    if (line_s >> name >> product >> x) {
+      customers.insert(make_pair(name, new Customer(name))); // Use 'name' as the key
+      cout << "Added: " << name << endl;
+    }
   }
 }
 
-void parseLine(const string &line, unordered_map<string, Customer> customers) {}
+int main() {
+  vector<string> lines = {"Alice Widget 19.99", "Bob Gadget 25.49"};
+  unordered_map<string, Customer *> customers;
+  string fileName = "payments.txt";
 
-// the vector line is a vector containing all the lines in the file
-// eg. Bill egg 3.5
-//     jonny egg 6
-// the parseLine will get the line and split the name, item and price
-// I then want to add the customers in the unordered map
+  validateFile(fileName);
+
+  readFile(fileName, lines);
+
+  parseLine(lines, customers);
+
+  // Print the values in the map
+  cout << "Customer Map Contents:" << endl;
+  for (const auto& pair : customers) {
+    cout << "Customer Name: " << pair.first << ", Customer Object: " << pair.second->getName() << endl;
+  }
+
+  // Optional: Clean up dynamically allocated memory (important to avoid memory leaks)
+  for (auto& pair : customers) {
+    delete pair.second;
+  }
+
+  return 0;
+}

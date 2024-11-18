@@ -1,20 +1,24 @@
 #include "customer.h"
 
 // Constructor implementation
-Customer::Customer(const std::string &name, double cost)
-    : name(name), totalSpent(cost) {
-  // initial item cost
-  items.push_back(cost);
+Customer::Customer(const std::string &name) : name(name), totalSpent(0) {}
+
+// Add product to the customer's list of items
+void Customer::addItem(const Product &product) {
+  items.push_back(product);    // Add the product to the list
+  totalSpent += product.price; // Add the product price to the total spent
 }
 
-// addItem implementation
-void Customer::addItem(double cost) {
-  items.push_back(cost);
-  totalSpent += cost;
-}
-
-// increaseTot
+// Increase the total spent by a certain amount
 void Customer::increaseTot(double cost) {
-  // Increasetotal
-  totalSpent += cost;
+  totalSpent += cost; // Increase the total amount spent by the specified cost
 }
+
+// Getter for customer name
+const std::string &Customer::getName() const { return name; }
+
+// Getter for the total spent
+double Customer::getTotalSpent() const { return totalSpent; }
+
+// Getter for the list of items
+const std::vector<Product> &Customer::getItems() const { return items; }
