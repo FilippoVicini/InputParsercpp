@@ -1,5 +1,5 @@
-#include "customer.h"
-#include "inputOps.h"
+#include "./input/inputOps.h"
+#include "./models/customer.h"
 #include <iostream>
 #include <sstream>
 #include <unordered_map>
