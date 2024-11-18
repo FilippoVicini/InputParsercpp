@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(coursework1
     src/main.cpp
     src/input/inputOps.cpp
+    src/input/parseLine.cpp
     src/models/customer.cpp
     src/models/product.cpp
 )

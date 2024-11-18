@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o"
   "CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o.d"
+  "CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o"
+  "CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o.d"
   "CMakeFiles/coursework1.dir/src/main.cpp.o"
   "CMakeFiles/coursework1.dir/src/main.cpp.o.d"
   "CMakeFiles/coursework1.dir/src/models/customer.cpp.o"

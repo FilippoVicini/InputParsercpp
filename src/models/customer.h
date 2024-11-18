@@ -1,7 +1,7 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
-#include "product.h"  // Ensure Product class is included here
+#include "product.h" // Ensure Product class is included here
 #include <string>
 #include <vector>
 

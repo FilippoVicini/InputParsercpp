@@ -1568,7 +1568,6 @@ CMakeFiles/coursework1.dir/src/main.cpp.o: /Users/filippovicini/Documents/uni/Ye
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h \
@@ -1728,7 +1727,10 @@ CMakeFiles/coursework1.dir/src/main.cpp.o: /Users/filippovicini/Documents/uni/Ye
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.h \
+  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h \
   /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.h \
+  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.h \
   /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.h \
   /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h
 
@@ -3340,9 +3342,9 @@ CMakeFiles/coursework1.dir/src/models/product.cpp.o: /Users/filippovicini/Docume
   /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h
 
 
-/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h:
+/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream:
+/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
 

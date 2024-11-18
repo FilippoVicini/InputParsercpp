@@ -100,10 +100,24 @@ CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp -o CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s
 
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: CMakeFiles/coursework1.dir/flags.make
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -MF CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o.d -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
+
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp > CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i
+
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s
+
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: CMakeFiles/coursework1.dir/flags.make
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework1.dir/src/models/customer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework1.dir/src/models/customer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/customer.cpp.o -MF CMakeFiles/coursework1.dir/src/models/customer.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/customer.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
 
 CMakeFiles/coursework1.dir/src/models/customer.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/coursework1.dir/src/models/customer.cpp.s: cmake_force
 CMakeFiles/coursework1.dir/src/models/product.cpp.o: CMakeFiles/coursework1.dir/flags.make
 CMakeFiles/coursework1.dir/src/models/product.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
 CMakeFiles/coursework1.dir/src/models/product.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework1.dir/src/models/product.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursework1.dir/src/models/product.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/product.cpp.o -MF CMakeFiles/coursework1.dir/src/models/product.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/product.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
 
 CMakeFiles/coursework1.dir/src/models/product.cpp.i: cmake_force
@@ -132,6 +146,7 @@ CMakeFiles/coursework1.dir/src/models/product.cpp.s: cmake_force
 coursework1_OBJECTS = \
 "CMakeFiles/coursework1.dir/src/main.cpp.o" \
 "CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o" \
+"CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o" \
 "CMakeFiles/coursework1.dir/src/models/customer.cpp.o" \
 "CMakeFiles/coursework1.dir/src/models/product.cpp.o"
 
@@ -140,11 +155,12 @@ coursework1_EXTERNAL_OBJECTS =
 
 coursework1: CMakeFiles/coursework1.dir/src/main.cpp.o
 coursework1: CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o
+coursework1: CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o
 coursework1: CMakeFiles/coursework1.dir/src/models/customer.cpp.o
 coursework1: CMakeFiles/coursework1.dir/src/models/product.cpp.o
 coursework1: CMakeFiles/coursework1.dir/build.make
 coursework1: CMakeFiles/coursework1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable coursework1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable coursework1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coursework1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

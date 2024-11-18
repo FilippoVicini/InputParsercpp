@@ -5,11 +5,10 @@
 
 class Product {
 public:
-    std::string name;  // Product name
-    double price;      // Product price
+  std::string name;
+  double price;
 
-    // Constructor for initializing Product object (declaration)
-    Product(const std::string &name, double price);
+  Product(const std::string &name, double price);
 };
 
-#endif
+#endif // PRODUCT_H

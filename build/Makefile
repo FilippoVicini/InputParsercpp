@@ -153,6 +153,30 @@ src/input/inputOps.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s
 .PHONY : src/input/inputOps.cpp.s
 
+src/input/parseLine.o: src/input/parseLine.cpp.o
+.PHONY : src/input/parseLine.o
+
+# target to build an object file
+src/input/parseLine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o
+.PHONY : src/input/parseLine.cpp.o
+
+src/input/parseLine.i: src/input/parseLine.cpp.i
+.PHONY : src/input/parseLine.i
+
+# target to preprocess a source file
+src/input/parseLine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i
+.PHONY : src/input/parseLine.cpp.i
+
+src/input/parseLine.s: src/input/parseLine.cpp.s
+.PHONY : src/input/parseLine.s
+
+# target to generate assembly for a file
+src/input/parseLine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework1.dir/build.make CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s
+.PHONY : src/input/parseLine.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... src/input/inputOps.o"
 	@echo "... src/input/inputOps.i"
 	@echo "... src/input/inputOps.s"
+	@echo "... src/input/parseLine.o"
+	@echo "... src/input/parseLine.i"
+	@echo "... src/input/parseLine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
