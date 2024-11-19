@@ -1,6 +1,6 @@
 CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o: \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
