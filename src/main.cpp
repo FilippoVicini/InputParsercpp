@@ -10,20 +10,27 @@
 using namespace std;
 
 int main() {
+  // vector to store each line from file
   vector<string> lines;
+  // map to store customer name and Customer object. No storing duplicates
   unordered_map<string, Customer *> customers;
+  // input filename
   string fileName = "payments.txt";
 
+  // File validation function
   if (!validateFile(fileName)) {
     cerr << "Invalid file: " << fileName << endl;
     return 1;
   }
 
+  // Read File function adding each line to the vector of lines
   readFile(fileName, lines);
 
+  // Parse Line function taking lines vector as parameter and updating the
+  // customers map
   parseLine(lines, customers);
 
-  // Print the values in the map
+  // Return the output as per description
   cout << "Customer Map Contents:" << endl;
   for (const auto &pair : customers) {
     cout << "Customer Name: " << pair.first
