@@ -5,6 +5,7 @@
 #include <sstream>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 using namespace std;
@@ -16,24 +17,67 @@ void parseLine(const vector<string> &lines,
   double price;
 
   // Loop through the lines vector
-  for (const auto &line : lines) {
-    // Parse each line
+  for (size_t i = 0; i < lines.size(); ++i) {
+    const auto &line = lines[i];
     istringstream line_s(line);
-    // Split at the space and take name, product, price
+
+    // Parse the line for expected format: name product price
     if (line_s >> name >> product >> price) {
-      // if name == end means that its not found in the map
       if (customers.find(name) == customers.end()) {
-        // add a new customer to the map
+        // Add a new customer to the map
         customers[name] = new Customer(name);
-        cout << "Added customer: " << name << endl;
+        // cout << "Added customer: " << name << endl;
       }
-      // if not means it was already in the map so update the product of the
-      // customer
+      // Update the customer's products
       customers[name]->addItem(Product(product, price));
-      cout << "Added product: " << product << " to customer: " << name << endl;
+      // cout << "Added product: " << product << " to customer: " << name <<
+      // endl;
     } else {
-      // error detection
-      cerr << "Failed to parse line: " << line << endl;
+      // Error detection with details
+      cerr << "Error in line " << i + 1 << ": \"" << line
+           << "\" - Expected format: <name> <product> <price> (e.g., Bob eggs "
+              "2.5)"
+           << endl;
     }
   }
+}
+
+bool fileConsistency(unordered_map<string, Customer *> customers,
+                     vector<string> people) {
+  // Track errors
+  bool allPresent = true;
+
+  // Check if all people in the list are in the map
+  // cout << "Checking people listed in people.txt..." << endl;
+  for (const auto &person : people) {
+    if (customers.find(person) == customers.end()) {
+      cerr
+          << "Error: " << person
+          << " is listed in people.txt but is not present in the customers map."
+          << endl;
+      allPresent = false;
+    }
+  }
+
+  // Check if all customers in the map are in the people list
+  // cout << "Checking extra people in the customers map..." << endl;
+  unordered_set<string> peopleSet(
+      people.begin(), people.end()); // Convert to set for fast lookups
+  for (const auto &entry : customers) {
+    if (peopleSet.find(entry.first) == peopleSet.end()) {
+      cerr << "Error: " << entry.first
+           << " is present in the customers map but not listed in people.txt."
+           << endl;
+      allPresent = false;
+    }
+  }
+
+  if (allPresent) {
+    cout << "All people match between people.txt and the customers map."
+         << endl;
+  } else {
+    cout << "Discrepancies were found. See errors above." << endl;
+  }
+
+  return allPresent;
 }

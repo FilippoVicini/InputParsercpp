@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src
+CXX_INCLUDES = -I/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src
 
 CXX_FLAGS = -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1
+CMAKE_SOURCE_DIR = /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build
+CMAKE_BINARY_DIR = /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/coursework1.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/coursework1.dir/codegen:
 .PHONY : CMakeFiles/coursework1.dir/codegen
 
 CMakeFiles/coursework1.dir/src/main.cpp.o: CMakeFiles/coursework1.dir/flags.make
-CMakeFiles/coursework1.dir/src/main.cpp.o: /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp
+CMakeFiles/coursework1.dir/src/main.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp
 CMakeFiles/coursework1.dir/src/main.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursework1.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/main.cpp.o -MF CMakeFiles/coursework1.dir/src/main.cpp.o.d -o CMakeFiles/coursework1.dir/src/main.cpp.o -c /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursework1.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/main.cpp.o -MF CMakeFiles/coursework1.dir/src/main.cpp.o.d -o CMakeFiles/coursework1.dir/src/main.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp
 
 CMakeFiles/coursework1.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp > CMakeFiles/coursework1.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp > CMakeFiles/coursework1.dir/src/main.cpp.i
 
 CMakeFiles/coursework1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp -o CMakeFiles/coursework1.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp -o CMakeFiles/coursework1.dir/src/main.cpp.s
 
 CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o: CMakeFiles/coursework1.dir/flags.make
-CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o: /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp
+CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp
 CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o -MF CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o.d -o CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o -c /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o -MF CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o.d -o CMakeFiles/coursework1.dir/src/input/inputOps.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp
 
 CMakeFiles/coursework1.dir/src/input/inputOps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/input/inputOps.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp > CMakeFiles/coursework1.dir/src/input/inputOps.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp > CMakeFiles/coursework1.dir/src/input/inputOps.cpp.i
 
 CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp -o CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/inputOps.cpp -o CMakeFiles/coursework1.dir/src/input/inputOps.cpp.s
 
 CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: CMakeFiles/coursework1.dir/flags.make
-CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
+CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
 CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -MF CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o.d -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -c /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -MF CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o.d -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp
 
 CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp > CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp > CMakeFiles/coursework1.dir/src/input/parseLine.cpp.i
 
 CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp -o CMakeFiles/coursework1.dir/src/input/parseLine.cpp.s
 
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: CMakeFiles/coursework1.dir/flags.make
-CMakeFiles/coursework1.dir/src/models/customer.cpp.o: /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
+CMakeFiles/coursework1.dir/src/models/customer.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework1.dir/src/models/customer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/customer.cpp.o -MF CMakeFiles/coursework1.dir/src/models/customer.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/customer.cpp.o -c /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework1.dir/src/models/customer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/customer.cpp.o -MF CMakeFiles/coursework1.dir/src/models/customer.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/customer.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp
 
 CMakeFiles/coursework1.dir/src/models/customer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/models/customer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp > CMakeFiles/coursework1.dir/src/models/customer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp > CMakeFiles/coursework1.dir/src/models/customer.cpp.i
 
 CMakeFiles/coursework1.dir/src/models/customer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/models/customer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp -o CMakeFiles/coursework1.dir/src/models/customer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp -o CMakeFiles/coursework1.dir/src/models/customer.cpp.s
 
 CMakeFiles/coursework1.dir/src/models/product.cpp.o: CMakeFiles/coursework1.dir/flags.make
-CMakeFiles/coursework1.dir/src/models/product.cpp.o: /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
+CMakeFiles/coursework1.dir/src/models/product.cpp.o: /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
 CMakeFiles/coursework1.dir/src/models/product.cpp.o: CMakeFiles/coursework1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursework1.dir/src/models/product.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/product.cpp.o -MF CMakeFiles/coursework1.dir/src/models/product.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/product.cpp.o -c /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursework1.dir/src/models/product.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework1.dir/src/models/product.cpp.o -MF CMakeFiles/coursework1.dir/src/models/product.cpp.o.d -o CMakeFiles/coursework1.dir/src/models/product.cpp.o -c /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp
 
 CMakeFiles/coursework1.dir/src/models/product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework1.dir/src/models/product.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp > CMakeFiles/coursework1.dir/src/models/product.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp > CMakeFiles/coursework1.dir/src/models/product.cpp.i
 
 CMakeFiles/coursework1.dir/src/models/product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework1.dir/src/models/product.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp -o CMakeFiles/coursework1.dir/src/models/product.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.cpp -o CMakeFiles/coursework1.dir/src/models/product.cpp.s
 
 # Object files for target coursework1
 coursework1_OBJECTS = \
@@ -160,7 +160,7 @@ coursework1: CMakeFiles/coursework1.dir/src/models/customer.cpp.o
 coursework1: CMakeFiles/coursework1.dir/src/models/product.cpp.o
 coursework1: CMakeFiles/coursework1.dir/build.make
 coursework1: CMakeFiles/coursework1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable coursework1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable coursework1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coursework1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +172,6 @@ CMakeFiles/coursework1.dir/clean:
 .PHONY : CMakeFiles/coursework1.dir/clean
 
 CMakeFiles/coursework1.dir/depend:
-	cd /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1 /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1 /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles/coursework1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1 /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1 /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/build/CMakeFiles/coursework1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/coursework1.dir/depend
 

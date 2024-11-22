@@ -9,5 +9,6 @@
 // it returns a vector of strings where each string is a line in the file
 void parseLine(const std::vector<std::string> &lines,
                std::unordered_map<std::string, Customer *> &customers);
-void lineValidation(std::istringstream line_s);
+bool fileConsistency(std::unordered_map<std::string, Customer *> customers,
+                     std::vector<std::string> people);
 #endif
