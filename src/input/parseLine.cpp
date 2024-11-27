@@ -5,7 +5,6 @@
 #include <sstream>
 #include <string>
 #include <unordered_map>
-#include <unordered_set>
 #include <vector>
 
 using namespace std;
@@ -48,49 +47,4 @@ void parseLine(const vector<string> &lines,
            << endl;
     }
   }
-}
-
-/**
- * Checks if all names in the people.txt file are consistent with the map
- *
- * @param customers An unordered_map of customer names to `Customer*` objects.
- * @param people A vector of names read from people.txt.
- * @return True if all names match, false if discrepancies are found.
- */
-
-bool fileConsistency(unordered_map<string, Customer *> customers,
-                     vector<string> people) {
-  bool allPresent = true;
-
-  // Check if all people in the list are in the map
-  for (const auto &person : people) {
-    if (customers.find(person) == customers.end()) {
-      cerr
-          << "Error: " << person
-          << " is listed in people.txt but is not present in the customers map."
-          << endl;
-      allPresent = false;
-    }
-  }
-
-  // Check if all customers in the map are in the people list
-  unordered_set<string> peopleSet(people.begin(), people.end());
-  for (const auto &entry : customers) {
-    if (peopleSet.find(entry.first) == peopleSet.end()) {
-      cerr << "Error: " << entry.first
-           << " is present in the customers map but not listed in people.txt."
-           << endl;
-      allPresent = false;
-    }
-  }
-
-  // Error or success message
-  if (allPresent) {
-    cout << "All people match between people.txt and the customers map." << endl
-         << endl;
-  } else {
-    cout << "Discrepancies were found. See errors above." << endl;
-  }
-
-  return allPresent;
 }
