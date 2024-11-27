@@ -1,6 +1,0 @@
-Bob eggs 2.5
-Alice apple 1.5
-Ava pen 2
-Bob pen 3.5
-Alice eggs 2
-Alice eggs 2
