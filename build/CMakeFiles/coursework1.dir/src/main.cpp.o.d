@@ -1,6 +1,6 @@
 CMakeFiles/coursework1.dir/src/main.cpp.o: \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/inputOps.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/main.cpp \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/inputOps.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -845,9 +845,9 @@ CMakeFiles/coursework1.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/parseLine.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/../models/customer.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/../models/product.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/parseLine.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/../models/customer.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./input/../models/product.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
@@ -858,6 +858,6 @@ CMakeFiles/coursework1.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/optional \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./models/customer.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./models/product.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./models/customer.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/./models/product.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream

@@ -1,21 +1,21 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
-#include "product.h" // Ensure Product class is included here
+#include "product.h"
 #include <string>
 #include <vector>
 
 class Customer {
-  std::string name;           // customer name
-  double totalSpent;          // total cost
-  std::vector<Product> items; // vector of items purchased
+  std::string name;
+  double totalSpent;
+  std::vector<Product> items;
 
 public:
   // Constructor (Initialize with name)
   Customer(const std::string &name);
 
   // Add product to the customer's list of purchased items
-  void addItem(const Product &product);
+  void addProduct(const Product &product);
 
   // Getter for customer name
   const std::string &getName() const;
@@ -24,7 +24,7 @@ public:
   double getTotalSpent() const;
 
   // Getter for the list of items
-  const std::vector<Product> &getItems() const;
+  const std::vector<Product> &getProducts() const;
 
   // Increase the total spent (optional utility)
   void increaseTot(double cost);

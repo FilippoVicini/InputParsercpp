@@ -1,7 +1,7 @@
 CMakeFiles/coursework1.dir/src/models/customer.cpp.o: \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.cpp \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/customer.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/models/product.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \

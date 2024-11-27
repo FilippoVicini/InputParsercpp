@@ -1,8 +1,8 @@
 CMakeFiles/coursework1.dir/src/input/parseLine.cpp.o: \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/../models/customer.h \
-  /Users/filippovicini/Documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/../models/product.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.cpp \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/parseLine.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/../models/customer.h \
+  /Users/filippovicini/documents/uni/Year2/semester1/IN2029CPP/coursework1/src/input/../models/product.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \

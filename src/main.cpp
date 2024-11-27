@@ -17,7 +17,7 @@ int main() {
   vector<string> people;
   // map to store customer name and Customer object. No storing duplicates
   unordered_map<string, Customer *> customers;
-  // input filename
+
   string fileName = "payments.txt";
   string fileName2 = "people.txt";
 
@@ -35,19 +35,24 @@ int main() {
   readFile(fileName2, people);
 
   // Parse Line function taking lines vector as parameter and updating the
-  // customers map
+  // customer map
   parseLine(lines, customers);
 
-  // if all people in the people.txt are present in the map
   if (fileConsistency(customers, people)) {
-    // Return the output as per description
-    cout << "Customer Map Contents:" << endl;
+    // Iterate over the map and print the required output
     for (const auto &pair : customers) {
-      cout << "Customer Name: " << pair.first
-           << ", Total Spent: " << pair.second->getTotalSpent() << endl;
-      for (const auto &item : pair.second->getItems()) {
-        cout << "  Product: " << item.name << ", Price: " << item.price << endl;
+      // Print customer name
+      cout << pair.first << endl;
+
+      // Access and print items and prices
+      double totalSpent = 0;
+      for (const auto &product : pair.second->getProducts()) {
+        cout << product.getName() << " " << product.getPrice() << endl;
+        totalSpent += product.getPrice();
       }
+
+      // Print total spent
+      cout << "Total: " << totalSpent << endl << endl;
     }
   }
 

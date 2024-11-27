@@ -5,10 +5,12 @@
 #include <unordered_map>
 #include <vector>
 
-// The readFile takes the file name as a parameter
-// it returns a vector of strings where each string is a line in the file
+// Parses transaction lines and updates customer data
 void parseLine(const std::vector<std::string> &lines,
                std::unordered_map<std::string, Customer *> &customers);
+
+// Checks if all names in the people.txt file are consistent with the map
 bool fileConsistency(std::unordered_map<std::string, Customer *> customers,
                      std::vector<std::string> people);
+
 #endif

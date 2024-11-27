@@ -10,6 +10,15 @@
 
 using namespace std;
 
+/**
+ * Parses transaction lines and updates customer data.
+ *
+ * @param lines A vector of strings in the format: "<name> <product> <price>".
+ * @param customers An unordered_map of customer names to `Customer*` objects.
+ *
+ * Adds new customers or updates existing ones with products.
+ *
+ */
 void parseLine(const vector<string> &lines,
                unordered_map<string, Customer *> &customers) {
 
@@ -23,17 +32,16 @@ void parseLine(const vector<string> &lines,
 
     // Parse the line for expected format: name product price
     if (line_s >> name >> product >> price) {
+
+      // if customer is not found in the map
       if (customers.find(name) == customers.end()) {
-        // Add a new customer to the map
         customers[name] = new Customer(name);
-        // cout << "Added customer: " << name << endl;
       }
-      // Update the customer's products
-      customers[name]->addItem(Product(product, price));
-      // cout << "Added product: " << product << " to customer: " << name <<
-      // endl;
+      // Customer is found, update the customer's products
+      customers[name]->addProduct(Product(product, price));
+
     } else {
-      // Error detection with details
+      // Error detection when line is not parsed
       cerr << "Error in line " << i + 1 << ": \"" << line
            << "\" - Expected format: <name> <product> <price> (e.g., Bob eggs "
               "2.5)"
@@ -42,13 +50,19 @@ void parseLine(const vector<string> &lines,
   }
 }
 
+/**
+ * Checks if all names in the people.txt file are consistent with the map
+ *
+ * @param customers An unordered_map of customer names to `Customer*` objects.
+ * @param people A vector of names read from people.txt.
+ * @return True if all names match, false if discrepancies are found.
+ */
+
 bool fileConsistency(unordered_map<string, Customer *> customers,
                      vector<string> people) {
-  // Track errors
   bool allPresent = true;
 
   // Check if all people in the list are in the map
-  // cout << "Checking people listed in people.txt..." << endl;
   for (const auto &person : people) {
     if (customers.find(person) == customers.end()) {
       cerr
@@ -60,9 +74,7 @@ bool fileConsistency(unordered_map<string, Customer *> customers,
   }
 
   // Check if all customers in the map are in the people list
-  // cout << "Checking extra people in the customers map..." << endl;
-  unordered_set<string> peopleSet(
-      people.begin(), people.end()); // Convert to set for fast lookups
+  unordered_set<string> peopleSet(people.begin(), people.end());
   for (const auto &entry : customers) {
     if (peopleSet.find(entry.first) == peopleSet.end()) {
       cerr << "Error: " << entry.first
@@ -72,8 +84,9 @@ bool fileConsistency(unordered_map<string, Customer *> customers,
     }
   }
 
+  // Error or success message
   if (allPresent) {
-    cout << "All people match between people.txt and the customers map."
+    cout << "All people match between people.txt and the customers map." << endl
          << endl;
   } else {
     cout << "Discrepancies were found. See errors above." << endl;
