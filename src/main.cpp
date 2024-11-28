@@ -11,11 +11,8 @@
 using namespace std;
 
 int main() {
-  // vector to store each line from file
   vector<string> lines;
-  // vector to store each person (preserves order)
   vector<string> people;
-  // map to store customer name and Customer object. No storing duplicates
   unordered_map<string, Customer *> customers;
 
   string fileName = "payments.txt";
@@ -34,10 +31,10 @@ int main() {
   readFile(fileName, lines);
   readFile(fileName2, people);
 
-  // Parse the payment lines to populate the customers map
+  // Parse the payment lines to add in customers map
   parseLine(lines, customers);
 
-  // Trim and store people while preserving order
+  // Trim and store people
   vector<string> trimmedPeople;
   for (const string &person : people) {
     size_t first = person.find_first_not_of(" \t\n\r");

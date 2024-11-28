@@ -19,7 +19,6 @@ void readFile(const string &fileName, vector<string> &inputLines) {
 
   ifstream in(fileName);
   while (getline(in, myText)) {
-    // Add line to vector
     inputLines.push_back(myText);
   }
 }
@@ -35,7 +34,6 @@ bool validateFile(const string &fileName) {
   // Check for correct file extension
   if (!checkFileName(fileName)) {
     cout << "Invalid file name";
-    // Check if file exists
   } else if (!checkFileExi(fileName)) {
     cout << "File doesn't exist in program";
   }
@@ -52,14 +50,12 @@ bool validateFile(const string &fileName) {
  * verify if it is "txt".
  */
 bool checkFileName(const string &fileName) {
-  // last occurrence of . in the file
   size_t pos = fileName.rfind('.');
 
-  // If no '.' is found, there is no extension, so return false
   if (pos == string::npos)
     return false;
 
-  // Extract the substring after the last '.' to get the file extension
+  // get substring after the last .
   string ext = fileName.substr(pos + 1);
 
   if (ext == "txt")
@@ -76,13 +72,11 @@ bool checkFileName(const string &fileName) {
  *
  */
 bool checkFileExi(const string &fileName) {
-  // Create an input file stream (ifstream) object to open the file
   ifstream file;
 
   file.open(fileName);
 
   if (!file) {
-    // File doesn't exist
     cout << "File doesn't exist";
     return false;
   }
