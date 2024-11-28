@@ -6,7 +6,6 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-#include <unordered_set>
 #include <vector>
 
 using namespace std;
@@ -14,7 +13,7 @@ using namespace std;
 int main() {
   // vector to store each line from file
   vector<string> lines;
-  // vector to store each people
+  // vector to store each person (preserves order)
   vector<string> people;
   // map to store customer name and Customer object. No storing duplicates
   unordered_map<string, Customer *> customers;
@@ -31,32 +30,31 @@ int main() {
     return 1;
   }
 
-  // Read File function adding each line to the vector of lines
+  // Read files into vectors
   readFile(fileName, lines);
   readFile(fileName2, people);
 
-  // Parse Line function taking lines vector as parameter and updating the
-  // customer map
+  // Parse the payment lines to populate the customers map
   parseLine(lines, customers);
 
-  // people contained in the people.txt with trim
-  unordered_set<string> peopleSet;
+  // Trim and store people while preserving order
+  vector<string> trimmedPeople;
   for (const string &person : people) {
-    // Trim
     size_t first = person.find_first_not_of(" \t\n\r");
     size_t last = person.find_last_not_of(" \t\n\r");
     if (first != string::npos && last != string::npos) {
-      peopleSet.insert(person.substr(first, (last - first + 1)));
+      trimmedPeople.push_back(person.substr(first, last - first + 1));
     }
   }
-  // Iterate through map and return only customers in the peopleSet
-  for (const auto &pair : customers) {
-    // Check if the customer is in the people.txt list
-    if (peopleSet.find(pair.first) != peopleSet.end()) {
-      cout << pair.first << endl;
+
+  // Print customer information in the order they appear in people.txt
+  for (const string &person : trimmedPeople) {
+    auto it = customers.find(person);
+    if (it != customers.end()) {
+      cout << it->first << endl;
 
       double totalSpent = 0;
-      for (const auto &product : pair.second->getProducts()) {
+      for (const auto &product : it->second->getProducts()) {
         cout << product.getName() << " " << product.getPrice() << endl;
         totalSpent += product.getPrice();
       }
