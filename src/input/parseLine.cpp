@@ -40,10 +40,11 @@ void parseLine(const vector<string> &lines,
       customers[name]->addProduct(Product(product, price));
 
     } else {
-      cerr << "Error in line " << i + 1 << ": \"" << line
+      cerr << "Error in payments.txt, line " << i + 1 << ": \"" << line
            << "\" - Expected format: <name> <product> <price> (e.g., Bob eggs "
               "2.5)"
            << endl;
+      exit(1);
     }
   }
 }
